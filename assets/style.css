@@ -1,0 +1,26 @@
+body {
+    background-color: #F2E4E4;
+}
+
+.navbar-light{
+    background-color:#F2E4E4;
+    ;
+}
+
+a {
+    color: #261818;
+}
+
+.jumbotron-fluid {
+    background-color: #BF999C;
+}
+
+.dropdown-menu {
+    background-color: #BF999C;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 1rem;
+}
