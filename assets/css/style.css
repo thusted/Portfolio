@@ -61,3 +61,24 @@ a {
   color: white;
 }
 
+#me {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.aboutLinks {
+  color: black;
+}
+
+#github {
+  max-width: 75%;
+  max-height: auto;
+  padding-top: 5rem;
+}
+
+#linkedin {
+  max-width: 100%;
+  max-height: auto;
+  padding-top: 5rem;
+  padding-left: 4rem;
+}
