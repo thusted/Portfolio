@@ -71,14 +71,18 @@ a {
 }
 
 #github {
-  max-width: 75%;
+  max-width: 100%;
   max-height: auto;
-  padding-top: 5rem;
+  /* padding-top: 5rem; */
+  display: flex;
+  justify-content: center;
 }
 
 #linkedin {
   max-width: 100%;
   max-height: auto;
-  padding-top: 5rem;
-  padding-left: 4rem;
+  /* padding-top: 5rem;
+  padding-left: 4rem; */
+  display: flex;
+  justify-content: center;
 }
