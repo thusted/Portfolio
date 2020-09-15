@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Tiana Husted</title>
+
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  </head>
+  <body>
+    <nav class="white" role="navigation">
+        <ul id="nav-web" class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="webDev.html">Web Development Projects</a></li>
+          <li><a href="interactiveArt.html">Interactive Art Projects</a></li>
+        </ul>
+
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="webDev.html">Web Development Projects</a></li>
+          <li><a href="interactiveArt.html">Interactive Art Projects</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+    <br>
+
+    <div id="name-container">
+      <h4>CONTACT</h4>
+      <h6>I'M ALWAYS INTERESTED IN COLLABORATING AND TALKING ABOUT TECH</h6>
+    </div>
+    <br>
+    <br>
+    
+    <div class="row">
+      <div class="col s12 m12 l6">
+        <h7>FILL OUT THE FORM TO SEND ME AN EMAIL</h7>
+        <div class="card body" id="contactCard">
+          <form class="mail">
+            <div class="form-group">
+              <label for="nameInput">Name:</label>
+              <input type="text" class="form-control" id="nameInput" placeholder="First & Last Name">
+            </div>
+            <br>
+            <div class="form-group">
+              <label for="msgInput">Message:</label>
+              <textarea type="text" class="form-control" id="msgInput" rows="5"></textarea>
+            </div>
+            <br>
+            <input class="btn btn-primary" id="emailSubmit" type="submit" value="Submit">
+          </form>
+        </div>
+      </div>
+
+      <div class="col s12 m12 l6">
+        <div class="pagesContainer">
+          <div class="col s12 m4">
+            <a href="https://github.com/thusted">
+              <img id="github" src="assets/images/github.png">
+            </a>
+          </div>
+
+          <div class="col s12 m4">
+            <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
+              <img id="linkedin" src="assets/images/linkedin.png">
+            </a>
+          </div>
+  
+          <div class="col s12 m4">
+              <img class="materialboxed" src="./assets/images/web_development.jpg">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="assets/js/materialize.js"></script>
+    <script src="assets/js/init.js"></script>
+    <script src="assets/js/mail.js"></script>
+
+  </body>
+</html>

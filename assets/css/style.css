@@ -99,3 +99,15 @@ a {
   border-radius: 25px;
   text-align: center;
 }
+
+#contactCard {
+  padding: 1rem;
+}
+
+#emailSubmit {
+  background-image: url("../images/dollhouse4.jpg");
+}
+
+.pagesContainer {
+  padding: 2rem;
+}

@@ -11,17 +11,29 @@
   <link href="assets/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-      <ul id="nav-web" class="right hide-on-med-and-down">
+  <!-- Dropdown Structure -->
+  <ul id="dropdown1" class="dropdown-content">
+    <li><a href="webDev.html">Web Development</a></li>
+    <li><a href="interactiveArt.html">Interactive Art</a></li>
+  </ul>
+  <ul id="dropdown2" class="dropdown-content">
+    <li><a href="webDev.html">Web Development</a></li>
+    <li><a href="interactiveArt.html">Interactive Art</a></li>
+  </ul>
+  <nav class=white>
+    <div class="nav-wrapper" id="nav-web">
+      <ul class="right hide-on-med-and-down">
         <li><a href="index.html">Home</a></li>
-        <li><a href="webDev.html">Web Development Projects</a></li>
-        <li><a href="interactiveArt.html">Interactive Art Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
-
+      
       <ul id="nav-mobile" class="sidenav">
         <li><a href="index.html">Home</a></li>
-        <li><a href="webDev.html">Web Development Projects</a></li>
-        <li><a href="interactiveArt.html">Interactive Art Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <!-- Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="dropdown2">Projects<i class="material-icons right">arrow_drop_down</i></a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
     </div>
@@ -64,25 +76,36 @@
   <div class="container">
     <div class="section">
       <div class="col c12 center">
-        <h4>CONTACT ME</h4>
+        <h4>FEATURED PROJECTS</h4>
       </div>
       <br>
       
       <div class="row">
-        <div class="col s12 m4">
-          <a href="https://github.com/thusted">
-            <img id="github" src="assets/images/github.png">
-          </a>
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/images/alertify.png">
+            </div>
+            <div class="card-content">
+              <p><b>Alertify</b> is an application that can provide users with additional security in case of an emergency. If something happened and in need of an immediate rescue, send an alert with Alertify mobile tracker.</p>
+            </div>
+            <div class="card-action">
+              <a href="assets/projects/alertify.html">VIEW PROJECT</a>
+            </div>
+          </div>
         </div>
-
-        <div class="col s12 m4">
-            <img class="materialboxed" src="./assets/images/web_development.jpg">
-        </div>
-
-        <div class="col s12 m4">
-          <a href="https://www.linkedin.com/in/tiana-husted-395057163/">
-            <img id="linkedin" src="assets/images/linkedin.png">
-          </a>
+        <div class="col s12 m6 l6">
+          <div class="card">
+            <div class="card-image">
+              <img src="assets/images/movingDolls.jpg">
+            </div>
+            <div class="card-content">
+              <p><b>“The Moving Dolls”</b> is a robotics piece inspired by the rise of Spiritualism movement at the turn of the 19th century. Featured at Jacobs Gallery for Manual Experience exhibition, 2020.</p>
+            </div>
+            <div class="card-action">
+              <a href="./assets/projects/movingDolls.html">VIEW PROJECT</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
