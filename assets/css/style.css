@@ -91,9 +91,11 @@ a {
 
 .page-footer {
   background-image: url("../images/dollhouse3.jpg");
+  padding: 1rem;
 }
 
 #footerRow {
   background: rgba(0, 0, 0, 0.5);
   border-radius: 25px;
+  text-align: center;
 }
