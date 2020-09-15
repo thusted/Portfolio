@@ -57,10 +57,6 @@ p {
   max-height: auto;
 }
 
-a {
-  color: white;
-}
-
 #me {
   max-width: 100%;
   max-height: auto;
@@ -83,4 +79,21 @@ a {
   max-height: auto;
   display: flex;
   justify-content: center;
+}
+
+#nav-web li a {
+  color: black;
+}
+
+a {
+  color: white;
+}
+
+.page-footer {
+  background-image: url("../images/dollhouse3.jpg");
+}
+
+#footerRow {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 25px;
 }
