@@ -81,6 +81,13 @@ p {
   justify-content: center;
 }
 
+#resume {
+  max-width: 100%;
+  max-height: auto;
+  display: flex;
+  justify-content: center;
+}
+
 #nav-web li a {
   color: black;
 }
@@ -114,4 +121,9 @@ li a {
 
 #resume {
   color: darkslateblue;
+}
+
+.contactIconTitles {
+  display: flex;
+  justify-content: center;
 }
